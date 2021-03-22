@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;700&display=swap')
-*
+
 
 *{
     margin: 0;
@@ -110,7 +109,10 @@
     color: crimson;
     font-weight: 500;
 }
+.about .about-content .column{
+    width: 50%;
 
+}
 /* responsive media query start */
 @media(max-width: 947px){
     .max-width{
@@ -203,4 +205,32 @@ section{
 .about .about-content .right{
     width: 55%;
 
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    margin-top: 100px;
+    display: inline-block;
+    background: crimson;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
 }
